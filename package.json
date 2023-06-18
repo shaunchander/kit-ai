@@ -37,6 +37,9 @@
 		"class-variance-authority": "^0.6.0",
 		"clsx": "^1.2.1",
 		"lucide-svelte": "^0.244.0",
+		"plyr": "^3.7.8",
+		"radix-svelte": "^0.7.1",
+		"somerset": "^0.0.3",
 		"svelte-feather-icons": "^4.0.1",
 		"tailwind-merge": "^1.13.2",
 		"tailwindcss-animate": "^1.0.6"

@@ -1,8 +1,9 @@
 <script>
+	import { PUBLIC_LEMONSQUEEZY_CHECKOUT } from '$env/static/public';
 	import Container from './Container.svelte';
 </script>
 
-<header class="inset-x-0 top-0 p-6 fixed">
+<header class="inset-x-0 top-0 p-6 fixed backdrop-blur-sm z-50">
 	<nav>
 		<Container>
 			<div class="flex items-center justify-between">
@@ -15,7 +16,8 @@
 					</a>
 				</div>
 				<div>
-					<button
+					<a
+						href={PUBLIC_LEMONSQUEEZY_CHECKOUT}
 						class="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
 					>
 						<span
@@ -26,7 +28,7 @@
 						>
 							Pre-order
 						</span>
-					</button>
+					</a>
 				</div>
 			</div>
 		</Container>
