@@ -4,6 +4,7 @@
 	import Header from '$components/Header.svelte';
 	import Footer from '$components/Footer.svelte';
 	import { Somerset } from 'somerset';
+	import { dev } from '$app/environment';
 </script>
 
 <svelte:head>
@@ -25,6 +26,14 @@
 	<meta name="msapplication-TileColor" content="#020617" />
 	<meta name="msapplication-TileImage" content="/favicons/favicon-144x144.png" />
 	<meta name="msapplication-config" content="/browserconfig.xml" />
+
+	{#if !dev}
+		<script
+			async
+			src="https://umami.services.shaunchander.me/script.js"
+			data-website-id="2a1a6997-3061-4330-bb18-0598f013d5d7"
+		></script>
+	{/if}
 </svelte:head>
 
 <Somerset
