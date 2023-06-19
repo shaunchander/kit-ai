@@ -46,7 +46,7 @@
 		siteName: 'KitAI',
 		images: [
 			{
-				url: 'https://',
+				url: 'https://kit-ai.vercel.app/og.png',
 				alt: ''
 			}
 		]
