@@ -169,7 +169,7 @@
 									<Badge>Early concept design</Badge>
 								</div>
 							</div>
-							<div>
+							<div class="mt-6 lg:mt-0">
 								<DialogHeader>
 									<DialogTitle class="text-slate-50 text-left">Chat KitAI</DialogTitle>
 									<DialogDescription class="text-slate-300 text-left">
