@@ -280,8 +280,8 @@
 				<AccordionItem value="item-1" class="border-slate-800">
 					<AccordionTrigger>When will KitAI be available?</AccordionTrigger>
 					<AccordionContent
-						>I'm aiming to have Chat KitAI (our first template) out and ready for prod by the end of
-						June!</AccordionContent
+						>I'm aiming to have Chat KitAI (our first template) out and ready for prod by the middle
+						of July.</AccordionContent
 					>
 				</AccordionItem>
 				<AccordionItem value="item-2" class="border-slate-800">
